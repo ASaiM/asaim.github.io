@@ -1,10 +1,11 @@
 # Site settings
 title: ASaiM
-email: berenice.batut@gmail.com
+email: berenice.batut@udamail.com
 description: > # this means to ignore newlines until "baseurl:"
   Auvergne Sequence Analysis of Intestinal Microbiota (ASaiM)
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://asaim.github.io/" # the base hostname & protocol for your site
+github_landing_page: asaim.github.io
 
 highlighter: pygments
 github_username:  ASaiM
