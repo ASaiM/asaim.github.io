@@ -9,4 +9,4 @@ _Auvergne Sequence Analysis of Intestinal Microbiota_ (ASaiM) is a pipeline to p
 # Getting started
 _rapid explanation_
 
-[How ASaiM works?](/documentation/)
+[How ASaiM works?]({{ site.documentation_page }})
