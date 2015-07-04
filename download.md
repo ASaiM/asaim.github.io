@@ -13,8 +13,8 @@ For a full installation tutorial, check the Installation documentation. The foll
 
 # Git
 
-Visit our [GitHub organization](https://github.com/ASaiM/) and clone it:
+Visit our [GitHub organization](https://github.com/ASaiM/) and clone the project:
 
 ```
-$ git clone git://github.com/ASaiM/
+$ git clone https://github.com/ASaiM/ASaiM.git
 ```
