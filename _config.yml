@@ -2,7 +2,7 @@ exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
 
 # Site settings
 title: ASaiM
-email: berenice.batut@udamail.com
+email: berenice.batut@udamail.fr
 description: > # this means to ignore newlines until "baseurl:"
   Auvergne Sequence Analysis of Intestinal Microbiota (ASaiM)
 baseurl: "" # the subpath of your site, e.g. /blog/
