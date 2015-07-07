@@ -1,27 +1,22 @@
 ---
 layout: page
 title: Support
-permalink: /support/
 ---
 
-There are several ways to get help when you are having problems with ASaiM.
+There are several ways to get support when you are having problems with ASaiM.
 
-# Mailing lists
+## Mailing lists
 
-In order to ask for support or help other users, use the ASaiM Users mailing-list:
+In order to ask for support or help other users, use the ASaiM users
+mailing-list:<br>[https://groups.google.com/group/asaim-users](https://groups.google.com/forum/?hl=fr#!forum/asaim-users/).
 
-[https://groups.google.com/group/asaim-users](https://groups.google.com/forum/?hl=fr#!forum/asaim-users/)
+## Bug Reports
 
-{% comment %} 
-If you want to help with the development of ASaiM, or if you want to be informed of the upcoming features, subscribe to the ASaiM Development mailing-list:
+You can report bugs or ask for new features by opening issues in the different
+GitHub bug trackers of the [ASaiM organization](https://github.com/ASaiM).
+Issues related to the ASaiM framework should be open
+[here](https://github.com/ASaiM/ASaiM/issues).
 
-[http://groups.google.com/group/asaim-development](https://groups.google.com/forum/?hl=fr#!forum/asaim-development)
-{% endcomment %}
+## Contact
 
-# Bug Reports
-
-You can look at the [ASaiM organization](https://github.com/ASaiM) and to report bugs or to ask for new features to the ASaiM ticketing system of each features.
-
-# Contact
-
-For support and general questions about the project: berenice.batut@udamail.com
+For support and general questions about the project: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.

@@ -234,3 +234,40 @@
         }
     }
 }
+
+#logo img {
+  height: 50px;
+  margin-top: 3px;
+}
+
+.fork_and_edit {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.get-started {
+  background: #04D700;
+  background-image: -webkit-linear-gradient(top, #04D700, #31ab09);
+  background-image: -moz-linear-gradient(top, #04D700, #31ab09);
+  background-image: -ms-linear-gradient(top, #04D700, #31ab09);
+  background-image: -o-linear-gradient(top, #04D700, #31ab09);
+  background-image: linear-gradient(to bottom, #04D700, #31ab09);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #fff!important;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.get-started:hover {
+  background: #31ab09;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .ribbon {
+    display: none;
+  }
+}

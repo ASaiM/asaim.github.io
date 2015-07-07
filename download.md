@@ -1,20 +1,30 @@
 ---
 layout: page
 title: Download
-permalink: /download/
 ---
 
-For a full installation tutorial, check the Installation documentation. The following options allow you to download the ASaiM code and documentation.
+The following options allow you to download the ASaiM code and documentation.
 
-# Releases
+**Note:** For a full installation tutorial, checkout the [Installation
+documentation](https://asaim.readthedocs.org/en/latest/installation.html).
 
-* Last version of ASaiM as ZIP file
-* Last version of ASaiM as TAR.GZ file
+## Git
 
-# Git
+Visit our [GitHub organization](https://github.com/ASaiM/) and `git` clone the
+main project:
 
-Visit our [GitHub organization](https://github.com/ASaiM/) and clone the project:
+    $ git clone git@github.com:ASaiM//ASaiM.git
 
-```
-$ git clone https://github.com/ASaiM/ASaiM.git
-```
+The documentation can also be fetched:
+
+    $ git clone git@github.com:ASaiM/Documentation.git
+
+## Releases
+
+All ASaiM releases can be found at:
+[https://github.com/ASaiM/ASaiM/releases](https://github.com/ASaiM/ASaiM/releases).
+
+## License
+
+Apache License, Version 2.0 Apache License Version 2.0, January 2004
+<br>[http://www.apache.org/licenses/](http://www.apache.org/licenses/)
