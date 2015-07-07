@@ -19,4 +19,4 @@ This website is built using [Jekyll](http://jekyllrb.com):
     $ cd asaim.github.io
     $ jekyll serve
 
-Then, browe [http://localhost:4000/](http://localhost:4000/).
+Then, browse [http://localhost:4000/](http://localhost:4000/).
