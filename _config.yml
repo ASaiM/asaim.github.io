@@ -1,3 +1,5 @@
+exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
+
 # Site settings
 title: ASaiM
 email: berenice.batut@udamail.com
