@@ -2,16 +2,19 @@
 
 [![Build Status](https://travis-ci.org/ASaiM/asaim.github.io.svg?branch=master)](https://travis-ci.org/ASaiM/asaim.github.io)
 
-_Auvergne Sequence Analysis of Intestinal Microbiota_ (ASaiM) is a pipeline to
-process metatranscriptomic data from intestinal microbiota. Starting from raw
-reads, it generates taxonomic and functional assignments using databases
-dedicated to this microbiome. These gut databases become more and more supplied
-by large metagenomic projects (like _MetaHIT_ and _HMP_ projects for microbial
-reference genomes) and therefore useful for reliable and accurate assignments.
-Finally, ASaiM combines taxonomic, functional and abundance information, coupled
-to statistical analyses and data mining tools. This pipeline is designed to be
-adjustable (personalized or proposed data processing given the type of data) and
-intuitive with its web interface, documentation and tutorials
+ASaiM is an environment to analyze metagenomic and metatranscriptomic sequences
+from intestinal microbiota. The environment is constituted of:
+
+- An expert database combining information from analysis of intestinal
+microbiota.
+<br>_Note: This database is currently under construction_
+
+- A framework to process and analyze intestinal microbiota from raw sequences
+  to taxonomic and functional assignations. This framework makes the connection
+  between different tools and then generates pipelines that can then be executed
+  in the ASaiM environment. Our goal is to provide a solution that is:
+    - easy to use for everyone, from beginners to experts
+    - adjustable, with numerous supported and proposed tools
 
 # Getting Started
 
