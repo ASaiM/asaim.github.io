@@ -13,11 +13,11 @@ documentation](https://asaim.readthedocs.org/en/latest/installation.html).
 Visit our [GitHub organization](https://github.com/ASaiM/) and `git` clone the
 main project:
 
-    $ git clone git@github.com:ASaiM//ASaiM.git
+    $ git clone git@github.com:ASaiM/ASaiM.git
 
 The documentation can also be fetched:
 
-    $ git clone git@github.com:ASaiM/Documentation.git
+    $ git clone git@github.com:ASaiM/documentation.git
 
 ## Releases
 
