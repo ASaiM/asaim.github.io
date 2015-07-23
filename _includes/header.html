@@ -2,8 +2,12 @@
 
   <div class="wrapper">
 
-    <a href="/" class="logo"><img src="/images/asaim_logo.png" width=300/></a>
+    <a href="/" id="logo"><img src="/images/asaim_logo.png" /></a>
     <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+
+    <a href="https://github.com/ASaiM" class="ribbon">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub" width="149" height="149">
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -20,6 +24,7 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        <a class="page-link" href="{{ site.documentation_page }}" target="_blank">Documentation</a>
       </div>
     </nav>
 

@@ -1,11 +1,14 @@
+exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
+
 # Site settings
 title: ASaiM
-email: berenice.batut@udamail.com
+email: berenice.batut@udamail.fr
 description: > # this means to ignore newlines until "baseurl:"
   Auvergne Sequence Analysis of Intestinal Microbiota (ASaiM)
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://asaim.github.io/" # the base hostname & protocol for your site
 github_landing_page: asaim.github.io
+documentation_page: "http://asaim.readthedocs.org/"
 
 highlighter: pygments
 github_username:  ASaiM
@@ -14,5 +17,3 @@ lsi: false
 
 # Build settings
 markdown: kramdown
-
-

@@ -1,25 +1,55 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-# What is ASaiM exactly?
-_Auvergne Sequence Analysis of Intestinal Microbiota_ (ASaiM) is a pipeline to process metatranscriptomic data from intestinal microbiota. Starting from raw reads, it generates taxonomic and functional assignments using databases dedicated to this microbiome. These gut databases become more and more supplied by large metagenomic projects (like _MetaHIT_ and _HMP_ projects for microbial reference genomes) and therefore useful for reliable and accurate assignments. Finally, ASaiM combines taxonomic, functional and abundance information, coupled to statistical analyses and data mining tools. This pipeline is designed to be adjustable (personalized or proposed data processing given the type of data) and intuitive with its web interface, documentation and tutorials
+## Why ASaiM?
 
-# Why ASaiM?
-Metatranscriptomic data allow active microbial communities description by gene products analysis. In comparison to metagenomic studies, few metatranscriptomic data have been obtained on  environmental ecosystems (soil, water, mine drainage…) as on human-associated microbiota despite health concerns. This discrepancy is due to difficulties in RNA recovery but also to a lack of tools dedicated to metatranscriptomic data processing. Nevertheless, some homemade pipelines adapted from metagenomics analyses exist but are not freely available and thus not easily accessible.
+Numerous tools are currently available to process and analyze metagenomics
+sequences (MG-Rast, Galaxy, MEGAN, QIIME, etc) However, they are often
+difficult to use, not adjustable, only one step in sequence processing, ... And
+currently, none can integrate metagenomics and metatranscriptomic information
+processing.
 
+Public databases are overflowing with intestinal microbiota information.
+However, this information is generally buried in these databases and difficult
+to interrogate (may databases to interrogate, few metadata, ...).
 
-# How?
-_rapid explanation_
+To bring some solution to these issues, we are developping _Auvergne Sequence
+Analysis of Intestinal Microbiota_ (ASaiM), an environment to analyze
+metagenomic and metatranscriptomic sequences from intestinal microbiota.
 
-Do you want to know more? Jump to the Documentation tab, or start exploring the code in the GitHub repository.
+## What is ASaiM exactly?
 
-[Get started](/documentation)
+The ASaiM environment is constituted of two "objects".
 
-# Who is involved?
-The project is founded by a CPER Auvergne contract and involved multiple partners:
+This first object is an expert database combining information from analysis of
+intestinal microbiota that can be found on public databases and from our
+analyses. This database is developed to be data sources and facilitate analyses
+such as comparative metagenomics or metatranscriptomics. However, this database
+is currently under construction.
+
+The second object is a framework to process and analyze intestinal microbiota
+from raw sequences to taxonomic and functional assignations. In this framework,
+several tools and databases are available. They are tools for metagenomics and
+metatranscriptomics sequences and are generally devoted to one step in the
+treatments to do to these data. So, the framework is here to help the users to
+choose the tools and parameters and then design a pipeline to process the
+sequences. Moreover, the framework provides an environment to execute the
+designed pipeline without to have to install all the wanted tools and their
+dependencies. The framework is then developped in the philosophy to be:
+
+- easy to use for all from beginners to expert, with an help in pipeline
+  design, a minimalist execution environment, an heavy [documentation]({{ site.documentation_page }}), ...
+- adjustable with numerous proposed tools and parameters
+
+This framework is a tool to process the available data about intestinal
+microbiota and supply the database with standardized information.
+
+## Who is involved?
+
+The project is founded by a CPER Auvergne contract and involved multiple
+partners:
 
  * [EA 4678 - CIDAM](http://www.u-clermont1.fr/cidam.html)
  * [UR 454 - Microbio](http://www6.clermont.inra.fr/microbiologie)
