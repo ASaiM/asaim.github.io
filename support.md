@@ -15,7 +15,7 @@ mailing-list:<br>[https://groups.google.com/group/asaim-users](https://groups.go
 You can report bugs or ask for new features by opening issues in the different
 GitHub bug trackers of the [ASaiM organization](https://github.com/ASaiM).
 Issues related to the ASaiM framework should be open
-[here](https://github.com/ASaiM/ASaiM/issues).
+[here](https://github.com/ASaiM/framework/issues).
 
 ## Contact
 
