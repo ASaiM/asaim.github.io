@@ -5,46 +5,53 @@ title: About
 
 ## Why ASaiM?
 
-Numerous tools are currently available to process and analyze metagenomics
-sequences (MG-Rast, Galaxy, MEGAN, QIIME, etc) However, they are often
-difficult to use, not adjustable, only one step in sequence processing, ... And
-currently, none can integrate metagenomics and metatranscriptomic information
-processing.
+Massive data of intestinal microbiota are available in the public data repositories
+such as [ENA](http://www.ebi.ac.uk/ena), [NCBI](http://www.ncbi.nlm.nih.gov/), 
+[DDBJ](http://www.ddbj.nig.ac.jp/), ... 
+For example, in ENA public data repository, 721 studies contain in their 
+description the word "intestin", "gut" or "feac" and in their name "meta" 
+(09/26/2015). 
+However, these data are not easy to identify (many of theses 721 studies are not 
+interesting), query and compare. 
+Indeed the datasets underwent different analyses and the results of different
+projects can not be compared directly.
+The data from public data repositories need to be formated to make them
+informative and standardized and then extract information such as which organisms 
+are present or which functions are realized in a specific sample of gut microbiota.
 
-Public databases are overflowing with intestinal microbiota information.
-However, this information is generally buried in these databases and difficult
-to interrogate (may databases to interrogate, few metadata, ...).
+For that, data from public data repositories must be re-analyzed using a full 
+analytical workflow with several steps: 
 
-To bring some solution to these issues, we are developping _Auvergne Sequence
-Analysis of Intestinal Microbiota_ (ASaiM), an environment to analyze
-metagenomic and metatranscriptomic sequences from intestinal microbiota.
+1. Quality control
+2. (Assembly of sequences)
+3. Sort of interesting sequence
+4. Functional annotation
+5. Taxonomic analysis
+6. Comparative analysis
+
+Several solutions could be used: QIIME, Mothur, MEGAN, CAMERA, IMG/M, MG-RAST, 
+EBI metagenomics, CloVR-metagenomics, SmashCommunity, RAMMCAP, 
+MetAMOS, ... However, none of these solutions respond to all following requirements
+
+- Complete analytical workflow with gut microbiota specific databases
+- User-friendly interface and command-line use to automate analysis of numerous
+datasets
 
 ## What is ASaiM exactly?
 
-The ASaiM environment is constituted of two "objects".
+ASaiM (*Auvergne Sequence analysis of intestinal Microbiota*) is an environment 
+to analyze intestinal microbiota
 
-This first object is an expert database combining information from analysis of
-intestinal microbiota that can be found on public databases and from our
-analyses. This database is developed to be data sources and facilitate analyses
-such as comparative metagenomics or metatranscriptomics. However, this database
-is currently under construction.
+![ASaiM](assets/images/general_scheme.svg)
 
-The second object is a framework to process and analyze intestinal microbiota
-from raw sequences to taxonomic and functional assignations. In this framework,
-several tools and databases are available. They are tools for metagenomics and
-metatranscriptomics sequences and are generally devoted to one step in the
-treatments to do to these data. So, the framework is here to help the users to
-choose the tools and parameters and then design a pipeline to process the
-sequences. Moreover, the framework provides an environment to execute the
-designed pipeline without to have to install all the wanted tools and their
-dependencies. The framework is then developped in the philosophy to be:
+This environment is composed of:
 
-- easy to use for all from beginners to expert, with an help in pipeline
-  design, a minimalist execution environment, an heavy [documentation]({{ site.documentation_page }}), ...
-- adjustable with numerous proposed tools and parameters
+- Framework to process gut microbiota data and to standardize the outputs
+- Database which takes an inventory of gut microbiota data from public data repositories 
+and users
+- Web interface to submit and query the database
 
-This framework is a tool to process the available data about intestinal
-microbiota and supply the database with standardized information.
+To learn more on ASaiM, please read the [documentation](http://asaim.readthedocs.org/en/latest/)
 
 ## Who is involved?
 
@@ -58,3 +65,4 @@ partners:
  * [LIMOS – UMR CNRS 6158 / UBP / /UdA ](http://limos.isima.fr/)
  * [TailorDev](http://tailordev.fr/)
  * [CRRI](https://crri.clermont-universite.fr/)
+
