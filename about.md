@@ -46,7 +46,7 @@ to analyze intestinal microbiota
 
 This environment is composed of:
 
-- Framework to process gut microbiota data and to standardize the outputs
+- Framework to process and analyze gut microbiota data
 - Database which takes an inventory of gut microbiota data from public data repositories 
 and users
 - Web interface to submit and query the database
