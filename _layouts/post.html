@@ -10,6 +10,21 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+
+    {% if page.comm_title %}
+        <p>
+        <b>Title:</b> 
+            {{ page.comm_title }}
+        </p>
+    {% endif %}
+
+    {% if page.comm_summary %}
+        <p>
+        <b>Summary: </b>
+        <br/>
+        {{ page.comm_summary }}
+        </p>
+    {% endif %}
   </article>
 
 </div>
