@@ -26,5 +26,5 @@ Interested or just curious? [Read more about the project!](/about.html)
 <center>
   <br>
   <a href="{{ site.documentation_page }}" class="get-started"><i class="fa fa-book"></i> Get started</a>
-  <a href="https://asaim.readthedocs.org/en/latest/tutorial.html" class="get-started"><i class="fa fa-flask"></i> Demo</a>
+  <a href="http://asaim.readthedocs.io/en/latest/framework/tutorial/index.html" class="get-started"><i class="fa fa-flask"></i> Framework demo</a>
 </center>
