@@ -65,4 +65,4 @@ The project is founded by a CPER Auvergne contract and involved multiple partner
  * [TailorDev](http://tailordev.fr/)
  * [CRRI](https://crri.clermont-universite.fr/)
 
-<img src="http://www.auvergne.fr/sites/default/files/drapeau_europe_auvergne.jpg" width="100" align="center">
+<img src="http://a403.idata.over-blog.com/3/21/27/08/logo_conseil_regional_auvergne.png" width="100" align="center">
