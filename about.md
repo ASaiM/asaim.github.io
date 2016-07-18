@@ -55,8 +55,11 @@ To learn more on ASaiM, please read the [documentation](http://asaim.readthedocs
 
 ## Who is involved?
 
-The project is founded by a CPER Auvergne contract and involved multiple
-partners:
+The project is founded by a CPER Auvergne contract.
+
+![FEDER logo](http://www.auvergne.fr/sites/default/files/drapeau_europe_auvergne.jpg)
+
+It involved multiple partners:
 
  * [EA 4678 - CIDAM](http://www.u-clermont1.fr/cidam.html)
  * [UR 454 - Microbio](http://www6.clermont.inra.fr/microbiologie)
