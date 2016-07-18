@@ -57,7 +57,7 @@ To learn more on ASaiM, please read the [documentation](http://asaim.readthedocs
 
 The project is founded by a CPER Auvergne contract.
 
-![FEDER logo](http://www.auvergne.fr/sites/default/files/drapeau_europe_auvergne.jpg)
+<img src="http://www.auvergne.fr/sites/default/files/drapeau_europe_auvergne.jpg" width="100">
 
 It involved multiple partners:
 
